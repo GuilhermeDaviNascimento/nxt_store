@@ -8,8 +8,8 @@ function header() {
             </div>
             <div className="flex gap-5 text-gray-400">
                 <a href="#men" className="hover:text-gray-300">Men</a>
-                <a href="" className="hover:text-gray-300">Woman</a>
-                <a href="" className="hover:text-gray-300">Kid</a>
+                <a href="#woman" className="hover:text-gray-300">Woman</a>
+                <a href="#kid" className="hover:text-gray-300">Kid</a>
                 <a href="" className="hover:text-gray-300">About Us</a>
             </div>
             <div>
