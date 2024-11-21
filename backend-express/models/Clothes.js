@@ -27,7 +27,7 @@ const Clothes = sequelize.define('Clothes', {
 
 // Sincronize o modelo com o banco de dados
 async function syncModels() {
-  await Clothes.sync({ force: true }); // Use force: true para recriar a tabela
+  await Clothes.sync({ force: false }); // Use force: true para recriar a tabela
 }
 
 syncModels();

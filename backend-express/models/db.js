@@ -1,7 +1,8 @@
 const { Sequelize } = require('sequelize');
+const Clothes = require('./clothes.js');
 
 // Configure sua conexão com o banco de dados MySQL
-const sequelize = new Sequelize('nxt', 'root', '', {
+const sequelize = new Sequelize('nxtdatabase', 'root', 'root', {
   host: 'localhost',
   dialect: 'mysql',
 });
@@ -17,5 +18,6 @@ async function testConnection() {
 }
 
 testConnection();
+
 
 module.exports = sequelize;
