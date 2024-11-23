@@ -1,8 +1,8 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('./db');
+const { DataTypes } = require("sequelize");
+const sequelize = require("../config/database");
 
 // Defina o modelo User
-const Clothes = sequelize.define('Clothes', {
+const Clothes = sequelize.define("Clothes", {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
